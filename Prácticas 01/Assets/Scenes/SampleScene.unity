@@ -339,6 +339,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1306471929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e6d52f793ba8ae4b9319a6662ebcc10, type: 3}
+  m_Script: {fileID: 11500000, guid: d1c194ab1f75fde4686461c7c360ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Var5: 6
+  Var6: 3.14
+  Var7: 1
+  Var8: zaparilla
