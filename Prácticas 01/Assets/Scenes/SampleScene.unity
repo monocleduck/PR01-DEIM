@@ -339,12 +339,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1306471929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9d1d48018b6a3c449e9cc2e02b15e26, type: 3}
+  m_Script: {fileID: 11500000, guid: 75310037ba0b0bf46a4aff7e9ff5c125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Num1: 43
-  Num2: 6
-  Num3: 27
-  Num4: 38
-  palabra: pelota
-  palabra2: de patos
+  bucle1: 1
