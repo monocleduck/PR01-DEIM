@@ -7,26 +7,64 @@ public class THIRDsegundej : MonoBehaviour
     void Matematico (int Num1, int Num2,string operacion)
     {
         if(operacion == "/"){
-            
-            
-            
-            
-            print(Num1 / Num2);
+
+            int Num3 = Num1 / Num2;
+
+            if (Num3 % 2 == 0)
+            {
+                print(Num3 + " además es un número par");
+            }
+
+            else
+            {
+                print(Num3 + " además es un número impar");
+            }
+           
         }
 
         else if(operacion == "+")
         {
-            print(Num1 + Num2);
+            int Num3 = Num1 + Num2;
+
+            if (Num3 % 2 == 0)
+            {
+                print(Num3 + " además es un número par");
+            }
+
+            else
+            {
+                print(Num3 + " además es un número impar");
+            }
         }
 
         else if (operacion == "-")
         {
-            print(Num1 - Num2);
+            int Num3 = Num1 - Num2;
+
+            if (Num3 % 2 == 0)
+            {
+                print(Num3 + " además es un número par");
+            }
+
+            else
+            {
+                print(Num3 + " además es un número impar");
+            }
         }
         
         else if (operacion == "*")
         {
-            print(Num1 * Num2);
+            int Num3 = Num1 * Num2;
+
+            if (Num3 % 2 == 0)
+            {
+                print(Num3 + " además es un número par");
+            }
+
+            else
+            {
+                print(Num3 + " además es un número impar");
+            }
         }
 
         else
@@ -39,7 +77,7 @@ public class THIRDsegundej : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Matematico(8,5,"*");
+        Matematico(3,5,"*");
     }
 
     // Update is called once per frame
