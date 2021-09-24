@@ -8,6 +8,9 @@ public class THIRDsegundej : MonoBehaviour
     {
         if(operacion == "/"){
             
+            
+            
+            
             print(Num1 / Num2);
         }
 
