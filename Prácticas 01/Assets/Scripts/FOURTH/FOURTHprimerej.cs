@@ -21,9 +21,7 @@ public class FOURTHprimerej : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
-
-            StartCoroutine("Contador");
-            
+            StartCoroutine("Contador"); 
         }
 
         else if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -31,11 +29,7 @@ public class FOURTHprimerej : MonoBehaviour
             StopCoroutine("Contador");
         }
 
-      
-
     }
-
-
 
     IEnumerator Contador()
     {

@@ -41,11 +41,18 @@ public class THRIDtercerej : MonoBehaviour
                 y++;
             }
 
-            if (y == 60)
+            else if (y == 60)
             {
                 y = 0;
                 z++;
             }
+            
+            else if (z == 2)
+            {
+                StopCoroutine("Contador");
+            }
+        
+        
         }
     }
 
